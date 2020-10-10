@@ -1,0 +1,65 @@
+.ro-shelf {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  background: none;
+}
+.ro-products-shelf {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.ro-shelf {
+  margin: 20px 0;
+}
+
+.ro-shelf_image {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 80%;
+}
+
+.ro-shelf_price {
+  font-weight: bold;
+  margin-right: 0.375em;
+}
+
+.installment {
+  color: #666666;
+}
+
+@media (max-width: 1024px) {
+  .ro-products-shelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ro-shelf {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ro-products-shelf {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .ro-shelf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 420px;
+  }
+}
