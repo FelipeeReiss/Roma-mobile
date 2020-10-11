@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="CSS/header.css" />
     <link rel="stylesheet" href="CSS/section.css" />
     <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/button.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Lojas Roma</title>
   </head>
 
@@ -14,7 +16,7 @@
       <header>
         <div class="ro-max_width">
           <p class="ro-header_top-text"><code>roma front-end</code></p>
-          <h1 class="ro-header_main-text">Roma</h1>
+          <h1 class="ro-header_main-text">roma</h1>
         </div>
       </header>
 
@@ -25,27 +27,38 @@
       <div class="ro-container">
         <section class="ro-products-shelf">
           <button class="ro-shelf">
-            <figure class="ro-shelf_image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf_image">
               <img src="img/20001684_585_catalog_1.jpg" alt="VESTIDO FLORIDO" />
             </figure>
-            <h3 class="ro-shelf_name">Vestido Florido</h3>
+            <h3 class="ro-shelf_name">Vestido festival</h3>
             <div class="wrapper">
               <span class="ro-shelf_price">R$ 199,99 </span
               ><span class="installment">3x R$ 66,66</span>
             </div>
+                <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+              </label>
           </button>
+
           <button class="ro-shelf">
-            <figure class="ro-shelf_image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf_image">
               <img src="img/20002570_002_catalog_1.jpg" alt="REGATA PRETA" />
             </figure>
-            <h3 class="ro-shelf_name">Regata preta</h3>
+            <h3 class="ro-shelf_name">Regata alcinha folk</h3>
             <div class="wrapper">
               <span class="ro-shelf_price">R$ 69,99</span>
               <span class="installment">3x R$ 23,33</span>
             </div>
+            <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+          </label>
           </button>
+
           <button class="ro-shelf">
-            <figure class="ro-shelf_image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf_image">
               <img
                 src="img/20002575_027_catalog_1.jpg"
                 alt="TOP CROPPED SUEDE"
@@ -56,9 +69,14 @@
               <span class="ro-shelf_price">R$ 59,99</span>
               <span class="installment">3x R$ 19,99</span>
             </div>
+            <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+          </label>
           </button>
+
           <button class="ro-shelf">
-            <figure class="ro-shelf_image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf_image">
               <img
                 src="img/20002581_614_catalog_1.jpg"
                 alt="BATA DECOTE FLUID"
@@ -69,22 +87,32 @@
               <span class="ro-shelf_price">R$ 79,99</span
               ><span class="installment">3x R$ 26,66</span>
             </div>
+            <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+              </label>
           </button>
+
           <button class="ro-shelf">
-            <figure class="ro-shelf_image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf_image">
               <img
                 src="img/20002605_615_catalog_1.jpg"
                 alt="VESTIDO TRANSPASSADO"
               />
             </figure>
-            <h3 class="ro-shelf_name">Vestido Transpassado</h3>
+            <h3 class="ro-shelf_name">Vestido Transpasse</h3>
             <div class="wrapper">
               <span class="ro-shelf_price">R129,99</span
               ><span class="installment">3x R$ 43,33</span>
             </div>
+            <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+          </label>
           </button>
+
           <button class="ro-shelf">
-            <figure class="ro-shelf__image">
+            <label class="ro-shelf__button-selection">
+            <figure type="checkbox" class="ro-shelf__image">
               <img
                 src="img/20002829_006_catalog_1.jpg"
                 alt="BLUSA RIP STRIPES"
@@ -95,7 +123,47 @@
               <span class="ro-shelf_price">R$ 49,99</span
               ><span class="installment">3x R$ 16,66</span>
             </div>
-          </button>
+            <input type="checkbox" class="ro-shelf__checkbox">
+                <span class="ro-shelf__button"></span>
+              </label>
+            </button>
+
+              <button class="ro-shelf">
+                <label class="ro-shelf__button-selection">
+                <figure type="checkbox" class="ro-shelf__image">
+                  <img
+                    src="img/20001684_585_catalog_1.jpg"
+                    alt="BLUSA RIP STRIPES"
+                  />
+                </figure>
+                <h3 class="ro-shelf_name">Camisa Suede Span</h3>
+                <div class="wrapper">
+                  <span class="ro-shelf_price">R$ 189,90</span
+                  ><span class="installment">3x R$ 63,30</span>
+                </div>
+                <input type="checkbox" class="ro-shelf__checkbox">
+                    <span class="ro-shelf__button"></span>
+                  </label>
+              </button>
+
+              <button class="ro-shelf">
+                <label class="ro-shelf__button-selection">
+                <figure type="checkbox" class="ro-shelf__image">
+                  <img
+                    src="img/20002648_029_catalog_1.jpg"
+                    alt="BLUSA RIP STRIPES"
+                  />
+                </figure>
+                <h3 class="ro-shelf_name">Casaco White Fur</h3>
+                <div class="wrapper">
+                  <span class="ro-shelf_price">R$ 239,90</span
+                  ><span class="installment">3x R$ 79,97</span>
+                </div>
+                <input type="checkbox" class="ro-shelf__checkbox">
+                    <span class="ro-shelf__button"></span>
+                  </label>
+              </button>
+
         </section>
       </div>
 

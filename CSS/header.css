@@ -1,17 +1,16 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   overflow-x: hidden;
 }
 
 .ro-header_top-text {
-  font-family: Arial, Helvetica, sans-serif;
   font-variant: small-caps;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
   margin: 0;
   text-align: center;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   text-decoration: underline;
   background-color: #ffa07a;
 }
@@ -21,17 +20,19 @@ body {
   font-weight: bold;
   font-variant: small-caps;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
+  font-size: 2.5rem;
+  margin: 1rem auto;
 }
 
 .ro-container_toolbar {
-  border-top: #dcdcdc solid 0.1em;
-  border-bottom: #d3d3d3 solid 0.1em;
+  border-top: #dcdcdc solid 0.1rem;
+  border-bottom: #d3d3d3 solid 0.1rem;
 }
 
 .ro-container_toolbar h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 100;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2rem;
 }
