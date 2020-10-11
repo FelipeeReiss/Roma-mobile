@@ -1,19 +1,15 @@
 .ro-shelf {
   padding: 0;
-  margin: 0;
+  margin: 1.25em 0;
   border: 0;
   width: auto;
   background: none;
 }
 .ro-products-shelf {
-  max-width: 1280px;
+  max-width: 80em;
   width: 100%;
   margin: 0 auto;
-  padding-top: 50px;
-}
-
-.ro-shelf {
-  margin: 20px 0;
+  padding-top: 3.125em;
 }
 
 .ro-shelf_image {
@@ -37,7 +33,7 @@ img {
   color: #666666;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64em) {
   .ro-products-shelf {
     display: flex;
     justify-content: center;
@@ -49,7 +45,7 @@ img {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
   .ro-products-shelf {
     flex-wrap: wrap;
     display: flex;
@@ -60,6 +56,6 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 420px;
+    width: 26.25em;
   }
 }
